@@ -3,12 +3,13 @@
     "",
     "\\src",
     "\\src\\calc2",
-    "\\src\\calc2\\components",
+    "\\src\\calc2\\data",
+    "\\src\\calc2\\utils",
     "\\src\\db",
     "\\src\\db\\parser",
     "\\src\\db\\translate",
     "\\src\\locales"
   ],
-  "SelectedNode": "\\src\\calc2\\index.ejs",
+  "SelectedNode": "\\src\\locales\\writeLanguageFiles.py",
   "PreviewInSolutionExplorer": false
 }
