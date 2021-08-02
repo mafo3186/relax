@@ -46,7 +46,7 @@ There are two ways to provide a group of tables:
 In the group's description markdown code can be used but javascript code will be removed for security reasons.
 
 ### Static Groups
-Static groups are loaded from the file `data/local_groups`.
+Static groups are loaded from the file `src/calc2/data/uibk.txt`.
 In this file multiple groups can be declared in the following text format.
 
 A group starts with the group header:

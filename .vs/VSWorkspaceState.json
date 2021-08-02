@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\calc2",
+    "\\src\\calc2\\components",
+    "\\src\\db",
+    "\\src\\db\\parser",
+    "\\src\\db\\translate",
+    "\\src\\locales"
+  ],
+  "SelectedNode": "\\src\\calc2\\index.ejs",
+  "PreviewInSolutionExplorer": false
+}

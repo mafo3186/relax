@@ -74,7 +74,7 @@ export const langEN = {
 	'editor.pegjs-error.or': 'or',
 	'editor.pegjs-error.no-input-found': 'no input found',
 	'editor.pegjs-error.end-of-input': 'end of input',
-	'editor.pegjs-error.expected-found': 'Expected {{expected}} but {{found}} found.',
+	'editor.pegjs-error.expected-found': 'TEST: Expected {{expected}} but {{found}} found.',
 	'editor.error-at-line-x': 'at line {{line}}',
 
 

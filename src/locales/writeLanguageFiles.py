@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
+# encoding="utf8" hinzugefügt: ist das korrekt?
 
 import csv, json
 
 delimiter = ','
 quotechar = '"'
+
 
 def CsvToJson():
     language_data = {
@@ -13,7 +15,7 @@ def CsvToJson():
         "kr": {},
         "pt": {},
     }
-    with open('languages.csv') as csv_file:
+    with open('languages.csv', encoding="utf8") as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=delimiter)
         rows = list(csv_reader)
         languages = rows[0][1:]
