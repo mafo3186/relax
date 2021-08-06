@@ -186,7 +186,7 @@ export class EditorRelalg extends React.Component<Props, State> {
 								label: '→',
 								onClick: this.replaceText,
 								tooltipTitle: 'calc.editors.ra.toolbar.right-arrow',
-								tooltip: 'calc.editors.ra.toolbar.right-arrow',
+								tooltip: 'calc.editors.ra.toolbar.right-arrow-content',
 							},
 							{
 								label: 'τ',
@@ -434,7 +434,6 @@ export class EditorRelalg extends React.Component<Props, State> {
 			/>
 		);
 	}
-
 	private replaceText(item: Item, overwrite?: string) {
 		if (this.editorBase) {
 			this.editorBase.replaceText(item, overwrite);
